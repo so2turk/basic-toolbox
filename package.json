@@ -1,6 +1,6 @@
 {
   "name": "basic-toolbox",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Collection of basic tools for JS",
   "main": "basic-toolbox.js",
   "scripts": {
