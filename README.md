@@ -1,10 +1,10 @@
-# tool-box
+# basic-toolbox
 Collection of basic tools for JS
 This is a work in progress. New features will be available soon. Feel free to contribute.
 
 INSTALL
 
-$ npm i tool-box
+$ npm i basic-toolbox
 
 FEATURES
 

@@ -1,17 +1,19 @@
 {
-  "name": "tool-box",
+  "name": "basic-toolbox",
   "version": "0.0.1",
   "description": "Collection of basic tools for JS",
-  "main": "tool-box.js",
+  "main": "basic-toolbox.js",
   "scripts": {
     "test": "jest --watchAll",
     "test-coverage": "jest --collect-coverage --testEnvironment=node --forceExit --maxWorkers=1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/so2turk/tool-box.git"
+    "url": "git+https://github.com/so2turk/basic-toolbox.git"
   },
   "keywords": [
+    "basic",
+    "toolkit",
     "toolbox",
     "array",
     "string",
@@ -20,9 +22,9 @@
   "author": "Serhat OZTURK so2turk@yahoo.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/so2turk/tool-box/issues"
+    "url": "https://github.com/so2turk/basic-toolbox/issues"
   },
-  "homepage": "https://github.com/so2turk/tool-box#readme",
+  "homepage": "https://github.com/so2turk/basic-toolbox#readme",
   "devDependencies": {
     "jest": "^27.3.1"
   }
