@@ -3,7 +3,7 @@ const arrSort = require('../src/arr-sort.js')
 const randomInt = require('../src/random-int.js')
 const round = require('../src/round.js')
 
-module.export = {
+module.exports = {
     arrEqual,
     arrSort,
     randomInt,
