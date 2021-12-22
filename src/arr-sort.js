@@ -4,7 +4,7 @@ arrSort = function (arr, sortType) {
     if(Array.isArray(arr)){
         switch(sortType){
             case ('a' || 'ascending'): return arr.sort((x,y) => isNaN(x)-isNaN(y) || x-y); break;
-            case ('d' || 'decsending'): return arr.sort((x,y) => isNaN(y)-isNaN(x) || y-x); break;
+            case ('d' || 'descending'): return arr.sort((x,y) => isNaN(y)-isNaN(x) || y-x); break;
             case ('Mm' || 'maxmin'):
                 let b=arr.sort((x,y) => y-x).slice(0,Math.ceil(arr.length/2));
                 arr.slice(Math.ceil(arr.length/2),arr.length).sort((x,y) => x-y).map((x,y) => b.splice(2*y+1,0,x));

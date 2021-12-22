@@ -5,29 +5,50 @@ This is a work in progress. New features will be available soon. Feel free to co
 
 INSTALL
 
+```
 $ npm i basic-toolbox
+```
+
+USAGE
+
 
 FEATURES
 
-So far there are four methods to help for basic problems;
+So far there are 5 methods to help for basic problems;
+
+        ```
     arrEqual: compares two arrays whether they are equal or not
         arrEqual([1, [2, 3]], [1, [2, 3]] returns false
         arrEqual([1, 2, undefined], [1, 2, undefined]) returns true
         arrEqual('string', ['string']) throws TypeError
-
+        ```
+        
     arrSort: sorts array according to given sort type
+        ```
         arrSort([3, 575, 33], 'a') returns [3, 33, 575]
         arrSort([3, 575, 33], 'd') returns [575, 33, 3]
         arrSort([3, 99, 1, 43, 766, 11, 1001], 'Mm') returns [1001, 1, 766, 3, 99, 11, 43]
+        ```
 
     randomInt: gives random integer within given range (inclusive)
+        ```
         randomInt(1, 3) returns an integer within the [1 - 3]
         arrSort(1.3, 3.5) throw 'Arguments must be integer' error
+        ```
         
     round: rounds number with given precision
+        ```
         round(1.54567, 3) returns 1.546
         round(1.54567, 2) returns 1.55
         round(1.54567, 1) returns 1.5
+        ```
+
+    move: move specified element to given place within the array/string
+        ```
+        moveIt([0, 1, 'x', 3, 'x', 5], 'x', 2, 0)) returns ['x', 0, 1, 'x', 3, 5]
+        moveIt([0, 1, 'x', 3, 'x', 5], 'x', 2, -1)) returns [0, 1, 'x', 3, 5, 'x']
+        moveIt('01x3x5', 'x', 2, 0)) returns 'x01x35'
+        ```       
 
 LICENSE
 
